@@ -1,0 +1,323 @@
+  .Welcome{
+    color: orange;
+    font-size:25px;
+  }
+  .sup{
+    font-style: oblique;
+    color: rgb(201, 118, 103);
+  }
+.Navbar{
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navbar .logo{
+  width: 190px;
+}
+.Navbar h1{
+  font-weight: 600;
+  font-family: sans-serif;
+  animation: heartbeat 2s infinite;
+  padding: 20px;
+  color: white;
+  border-radius: 60px;
+  text-shadow: 0px 10px 10px black;
+
+ 
+}
+@keyframes heartbeat {
+  0%{
+    transform: scale(1);
+    background-color: orange;
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+     background-color: green;
+  }
+  
+}
+
+.navbar-menu{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #494949;
+  font-size: 18px;
+}
+.nav-bar-right{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.Navbar button{
+  background: transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 1px solid green;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Navbar button:hover{
+  background-color:#fff4f2;
+}
+.Navbar .active{
+  padding-bottom: 2px;
+  border-bottom: 3px solid black;
+ 
+}
+.Navbar .active:hover{
+  background-color: black;
+  color: aliceblue;
+}
+.Navbar li{
+  padding: 10px;
+  cursor: pointer;
+}
+.navbar-search-icon{
+  position: relative;
+}
+.navbar-search-icon .dot{
+  min-width: 10px;
+  min-height: 10px;
+  background-color: rgb(35, 139, 35);
+  border-radius: 5px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+
+}
+@media (max-width:1050px) {
+    .Welcome{
+    color: orange;
+  }
+  .sup{
+    font-style: oblique;
+    color: rgb(201, 118, 103);
+  }
+  .Navbar .logo{
+    width: 100px;
+  }
+  .navbar-menu{
+  gap: 20px;
+  font-size: 17px;
+  margin-left: 5%;
+ 
+}
+.nav-bar-right{
+  gap: 30px;
+  margin-left: 10%;
+
+  
+}
+.Navbar h1{
+  font-weight: 600;
+  font-family: sans-serif;
+  animation: heartbeat 2s infinite;
+  padding: 10px;
+  color: white;
+  border-radius: 60px;
+  text-shadow: 0px 10px 10px black;
+  font-size: max(1.5vw,5px);
+  text-align: center;
+  margin-right: 1rem;
+  width:100%;
+
+ 
+}
+.Navbar button:hover{
+  background-color:#fff4f2;
+}
+.Navbar .active{
+  border-bottom: 3px solid black;
+  border-top:3px solid black;
+  border-radius: 60px;
+}
+.navbar-menu .active{
+  background-color: orange;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+.Navbar .active:hover{
+  background-color: orange;
+  color: aliceblue;
+}
+.Navbar li{
+  padding: 5px;
+  cursor: pointer;
+  align-items:center;
+  padding-top:12px
+ 
+}
+.Navbar button{
+  background: transparent;
+  font-size: 15px;
+  color: #49557e;
+  border: 1px solid green;
+  padding: 5px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+  
+}
+
+@media (max-width:900px) {
+  .Navbar .logo{
+    width: 100px;
+  }
+  .navbar-menu{
+  gap: 20px;
+  font-size: 17px;
+  margin-left: 1%;
+ 
+}
+.nav-bar-right{
+  gap: 30px;
+  margin-left: 10%;
+
+  
+}
+.Navbar h1{
+  font-weight: 600;
+  font-family: sans-serif;
+  animation: heartbeat 2s infinite;
+  padding: 10px;
+  color: white;
+  border-radius: 60px;
+  text-shadow: 0px 10px 10px black;
+  font-size: max(1.5vw,5px);
+  text-align: center;
+  margin-right: 0.5rem;
+  width:100%;
+
+ 
+}
+.Navbar button:hover{
+  background-color:#fff4f2;
+}
+.Navbar .active{
+  border-bottom: 3px solid black;
+  border-top:3px solid black;
+  border-radius: 60px;
+}
+.Navbar .active:hover{
+  background-color: orange;
+  color: aliceblue;
+}
+.navbar-menu .active{
+  background-color: orange;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+.Navbar li{
+  padding: 5px;
+  cursor: pointer;
+  align-items:center;
+  padding-top:12px
+ 
+}
+.Navbar button{
+  background: transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 1px solid green;
+  padding: 5px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+  
+}
+
+@media (max-width:750px) {
+  .Welcome{
+    color: orange;
+    font-size: 15px;
+  }
+  .sup{
+    font-style: oblique;
+    color: rgb(201, 118, 103);
+  }
+  .Navbar{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #49557e;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+  }
+  .Navbar .logo{
+    width: 50px;
+  }
+  .navbar-menu{
+  display: none;
+ 
+}
+.nav-bar-right{
+  gap: 30px;
+  margin-left: 10%;
+
+  
+}
+.Navbar h1{
+  font-weight: 600;
+  font-family: sans-serif;
+  animation: heartbeat 2s infinite;
+  padding: 10px;
+  color: white;
+  border-radius: 60px;
+  text-shadow: 0px 10px 10px black;
+  font-size: max(1vw,px);
+  text-align: center;
+  margin-right: 0.5rem;
+  width:100%;
+
+ 
+}
+.Navbar button:hover{
+  background-color:#fff4f2;
+}
+.Navbar .active{
+  border-bottom: 3px solid black;
+  border-top:3px solid black;
+  border-radius: 60px;
+}
+.Navbar .active:hover{
+  background-color: orange;
+  color: aliceblue;
+}
+.Navbar li{
+  padding: 5px;
+  cursor: pointer;
+  align-items:center;
+  padding-top:12px
+ 
+}
+.navbar-menu .active{
+  background-color: orange;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+.Navbar button{
+  background: transparent;
+  font-size: 3vw;
+  color: #49557e;
+  border: 1px solid green;
+  padding: max(1vw,2vw);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 50%;
+}
+  
+}
